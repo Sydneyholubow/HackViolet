@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1423CE0B25C5D2E1000C3EE8 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1423CE0A25C5D2E1000C3EE8 /* profileViewController.swift */; };
+		14444FEE25C5EB11003725A8 /* ideaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14444FED25C5EB11003725A8 /* ideaViewController.swift */; };
 		B125BEF525C3732100FECBB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125BEF425C3732100FECBB8 /* AppDelegate.swift */; };
 		B125BEF725C3732100FECBB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125BEF625C3732100FECBB8 /* SceneDelegate.swift */; };
 		B125BEF925C3732100FECBB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B125BEF825C3732100FECBB8 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		1423CE0A25C5D2E1000C3EE8 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		14444FED25C5EB11003725A8 /* ideaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ideaViewController.swift; sourceTree = "<group>"; };
 		B125BEF125C3732100FECBB8 /* HackViolet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackViolet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B125BEF425C3732100FECBB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B125BEF625C3732100FECBB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,9 @@
 		14385E5325C5CD03003BDD65 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				14444FED25C5EB11003725A8 /* ideaViewController.swift */,
+				1423CE0A25C5D2E1000C3EE8 /* profileViewController.swift */,
+				B125BEF825C3732100FECBB8 /* ViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -118,8 +123,6 @@
 				B125BF0225C3732600FECBB8 /* LaunchScreen.storyboard */,
 				B125BF0525C3732600FECBB8 /* Info.plist */,
 				B125BEFD25C3732100FECBB8 /* HackViolet.xcdatamodeld */,
-				B125BEF825C3732100FECBB8 /* ViewController.swift */,
-				1423CE0A25C5D2E1000C3EE8 /* profileViewController.swift */,
 			);
 			path = HackViolet;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				B125BEF925C3732100FECBB8 /* ViewController.swift in Sources */,
 				B125BEFF25C3732100FECBB8 /* HackViolet.xcdatamodeld in Sources */,
 				B125BEF525C3732100FECBB8 /* AppDelegate.swift in Sources */,
+				14444FEE25C5EB11003725A8 /* ideaViewController.swift in Sources */,
 				1423CE0B25C5D2E1000C3EE8 /* profileViewController.swift in Sources */,
 				B125BEF725C3732100FECBB8 /* SceneDelegate.swift in Sources */,
 			);

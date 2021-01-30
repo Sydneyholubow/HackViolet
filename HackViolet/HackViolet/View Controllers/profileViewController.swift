@@ -27,5 +27,8 @@ class profileViewController: UIViewController {
         print(nameField.text)
     }
 
-
+    @IBAction func ideaBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "homeToIdea", sender: self)
+    }
+    
 }
