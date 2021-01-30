@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var ageField: UITextField!
     @IBOutlet weak var intrestField: UITextField!
-    
+
     var name: String!
     var age: String!
     var intrest: String!
@@ -42,12 +42,11 @@ class ViewController: UIViewController {
             uvProfile.intrest = self.intrest
         }
         
-    }
+    }    
     
     @IBAction func doneAction(_ sender: UIButton) {
         performSegue(withIdentifier: "infoToHome", sender: self)
     }
     
-
 }
 

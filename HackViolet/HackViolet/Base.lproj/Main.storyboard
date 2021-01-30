@@ -78,13 +78,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29x-Ba-D2L">
-                                <rect key="frame" x="43" y="496" width="42" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i10-xX-oMp">
+                                <rect key="frame" x="149" y="541" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="doneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vac-n2-CUR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.93016909246575341" green="0.62928082191780821" blue="0.85573630136986301" alpha="1" colorSpace="calibratedRGB"/>
@@ -93,7 +96,6 @@
                     <connections>
                         <outlet property="ageField" destination="eYI-IY-o1Y" id="2wQ-C0-Vzz"/>
                         <outlet property="intrestField" destination="z4J-9F-gP1" id="hpP-CX-WQd"/>
-                        <outlet property="name2Field" destination="29x-Ba-D2L" id="XMS-fq-hsw"/>
                         <outlet property="nameField" destination="FNC-cZ-pHX" id="nGz-lM-eRf"/>
                         <segue destination="HBU-ac-yFg" kind="presentation" identifier="infoToHome" id="pg4-Fu-v4Y"/>
                     </connections>
